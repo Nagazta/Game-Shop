@@ -1,14 +1,18 @@
+body{
+    color: #F87060;
+    
+}
 .section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #F87060;
     padding: 30px;
 }
 
 .title{
     font-size: 50px;
     font-weight: bold;
+
 }
 .description{
     margin-top: -20px;
@@ -40,6 +44,54 @@
 .section-image:hover {
     transform: scale(1.05);
     box-shadow: 15px 15px 10px #0b1b33;
+    filter: brightness(1.1);
+}
+/* Section2 */
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 160px;
+}
+.img-card{
+    width: 337px;
+    height: 362px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #0b1b33;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.img-card:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 10px #0b1b33;
+    filter: brightness(1.1);
+}
+/* SECTION 3 */
+.section.three{
+    margin-top: -150px;
+    justify-content: center;
+    gap: 50px;
+}
+.title.three{
+    padding: 60px;
+    text-align: center;
+}
+.section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgba(30, 49, 76, 0.5);
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 35px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section-left:hover{
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+.section-right{
+    font-size: 50px;
 }
 
 
