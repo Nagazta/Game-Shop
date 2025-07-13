@@ -25,10 +25,10 @@ export default function Header() {
             ))}
         </nav>
         <div className='nav-right'>
-            <button className='nav-button'>
+            <button className='nav-button' onClick={() => navigate('/login')}>
                 Sign In
             </button>
-            <button className='get-Started'>
+            <button className='get-Started' onClick={() => navigate('/register')}>
                 Get Started
             </button>
         </div> 
