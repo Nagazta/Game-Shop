@@ -1,6 +1,6 @@
 import '../Login/Login.css'
 import discord from '../../assets/dc.jpg'
-import facebook from '../../assets/Fb.png'
+import facebook from '../../assets/FB.png'
 import google from '../../assets/Google.jpg'
 import twitter from '../../assets/X.jpg'
 import { useNavigate } from 'react-router-dom'
