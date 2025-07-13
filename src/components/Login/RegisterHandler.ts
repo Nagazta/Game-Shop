@@ -27,6 +27,6 @@ export async function registerHandler(formData: FormData): Promise<void> {
       email,
       username,
       fullName: `${firstName} ${middleName || ''} ${lastName}`.trim(),
-      createdAt: new Date(),
+      createdAt: Timestamp.now(),
     });
 }
