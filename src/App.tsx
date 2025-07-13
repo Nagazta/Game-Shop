@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes,BrowserRouter as Router } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import LoginPage from './pages/LoginPage'
